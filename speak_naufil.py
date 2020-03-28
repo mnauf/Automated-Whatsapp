@@ -42,7 +42,7 @@ def eng():
         user = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "[title^='Attach']"))
         )
         user.click()
-        button=WebDriverWait(driver, 8).until(EC.element_to_be_clickable((By.CLASS_NAME, '_1azEi'))) # Purple icon
+        button=WebDriverWait(driver, 8).until(EC.element_to_be_clickable((By.CLASS_NAME, '_1azEi'))) # Purple media icon to upload picture
         driver.implicitly_wait(1)
         
         try:
@@ -52,7 +52,7 @@ def eng():
             button.click()
         x=dir_path + r"\\automation.exe"
         os.startfile(x)
-        button=WebDriverWait(driver, 12).until(EC.element_to_be_clickable((By.CLASS_NAME, '_3nfoJ'))) # send icon
+        button=WebDriverWait(driver, 12).until(EC.element_to_be_clickable((By.CLASS_NAME, '_3nfoJ'))) # send button icon
         button.click()
         time.sleep(4)
         time.sleep(sleeping)
