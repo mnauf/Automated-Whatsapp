@@ -1,0 +1,5 @@
+ControlFocus("Open","","Edit1")
+Sleep(500)
+ControlSetText("Open","","Edit1",@ScriptDir & "\rec.m4a")
+Sleep(1000)
+ControlClick("Open","","Button1")
