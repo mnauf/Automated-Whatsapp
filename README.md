@@ -1,8 +1,12 @@
 # Automated Whatsapp
 This script allows you to send audio or text messages to your whatsapp contacts with or without scheduling. 
 
+There are two options. Whether you want to send audio or text
 ![Screenshot](https://imgur.com/jfSFnbp.jpg)
+If you choose audio, it asks what do you want in audio. You give it a text and it converts it into audio automatically.
+
 ![Screenshot](https://imgur.com/Ql1OE2k.jpg)
+
 
 ## Watch the script in working step by step: 
 
@@ -22,6 +26,6 @@ user=WebDriverWait(driver, 200).until(EC.presence_of_element_located((By.XPATH,x
 
 ![Screenshot](https://imgur.com/9de5zb5.jpg)
 ### Step 4: Clicks on send icon
-`button=WebDriverWait(driver, 12).until(EC.element_to_be_clickable((By.CLASS_NAME, '_3nfoJ'))) # send button icon`
+`button=WebDriverWait(driver, 12).until(EC.element_to_be_clickable((By.CLASS_NAME, '_3nfoJ')))`
 
 ![Screenshot](https://imgur.com/bXmsHMx.jpg)
