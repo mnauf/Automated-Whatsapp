@@ -1,6 +1,11 @@
 # Automated Whatsapp
 This script allows you to send audio or text messages to your whatsapp contacts with or without scheduling. 
 
+Watch from 2:00 to 6:00 minutes
+<iframe width="420" height="315"
+src="https://youtu.be/idDu1BF0X4U?t=122">
+</iframe>
+
 There are two options. Whether you want to send audio or text
 ![Screenshot](https://github.com/mnauf/Automated-Whatsapp/blob/master/media/5.JPG)
 If you choose audio, it asks what do you want in audio. You give it a text and it converts it into audio automatically.
