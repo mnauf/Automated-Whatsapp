@@ -6,9 +6,10 @@ There are two options. Whether you want to send audio or text
 If you choose audio, it asks what do you want in audio. You give it a text and it converts it into audio automatically.
 
 ![Screenshot](https://imgur.com/Ql1OE2k.jpg)
+## Sending a text
 
 
-## Watch the script in working step by step: 
+## Sending an audio message: 
 
 ### Step 1: Selects the person you want to send the message to
 ```
